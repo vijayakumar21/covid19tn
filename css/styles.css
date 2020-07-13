@@ -1,0 +1,43 @@
+ .d {
+   background-color: #222831;
+   text-align: center;
+ }
+
+ .nav-item
+ {
+   padding: 0 18px;
+   font-size: 1.4rem;
+ }
+.heading{
+  padding: 5%;
+  color: #ff4301;
+}
+.total-cases{
+  color:#EB9734;
+
+}
+.tested{
+  color:#0779e4;
+
+}
+.active-cases{
+  color:#fa1616;
+
+}
+.recovered{
+  color:#2EB259;
+
+}
+.casuality
+{
+  color:#DEAFF8;
+
+}
+.div-show{
+
+  padding: 0 5%;
+  float: left;
+}
+.box{
+  padding:1.5% 5.5%;
+}
