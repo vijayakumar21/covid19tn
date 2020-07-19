@@ -65,8 +65,7 @@ align-items: center;
   filter: brightness(57%);
 
 }
-
-@media only screen and (hover: none) and (pointer: coarse)
+@media all and (max-width: 768px) 
  {
   .total{
     font-size: 1.2rem;
