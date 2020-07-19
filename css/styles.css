@@ -1,5 +1,5 @@
  .d {
-   background-color: #222831;
+   background-color: #0D0D0D;
    text-align: center;
  }
 
@@ -9,7 +9,8 @@
    font-size: 1.4rem;
  }
 .heading{
-  padding: 5%;
+  padding: 7%;
+  font-size:200%;
   color: #ff4301;
 }
 .total-cases{
@@ -18,6 +19,7 @@
 }
 .tested{
   color:#0779e4;
+
 
 }
 .active-cases{
@@ -28,16 +30,53 @@
   color:#2EB259;
 
 }
-.casuality
+.deceased
 {
-  color:#DEAFF8;
-
+  color:#CF7BFD;
+}
+h3
+{
+  font-size:1.3rem;
 }
 .div-show{
 
-  padding: 0 5%;
-  float: left;
+  padding: 0 2.5%;
 }
 .box{
-  padding:1.5% 5.5%;
+  padding:1.5% 1%;
+}
+.chart
+{
+  max-width: 45%;
+}
+.graph-top
+{
+  max-width: 45%;
+align-items: center;
+
+
+}
+.canvas{  display:inline;}
+
+.new
+{
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  filter: brightness(57%);
+
+}
+
+@media only screen and (hover: none) and (pointer: coarse)
+ {
+  .total{
+    font-size: 1.2rem;
+  }
+  .title
+  {
+    font-size:0.9rem;
+  }
+  .new
+  {
+    font-size: 0.8rem;
+  }
 }
