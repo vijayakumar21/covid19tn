@@ -36,7 +36,11 @@
 }
 h3
 {
-  font-size:1.3rem;
+  font-size:100%;
+}
+h4
+{
+  font-size: 100%;
 }
 .div-show{
 
@@ -51,7 +55,7 @@ h3
 }
 .graph-top
 {
-  max-width: 45%;
+  max-width: 65%;
 align-items: center;
 
 
@@ -65,32 +69,7 @@ align-items: center;
   filter: brightness(57%);
 
 }
-@media (min-width: 481px) and (max-width: 767px)
- {
-  .total{
-    font-size: 1.2rem;
-  }
-  .title
-  {
-    font-size:0.9rem;
-  }
-  .new
-  {
-    font-size: 0.8rem;
-  }
+.color{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-
-
- 
- .total{
-    font-size: 1.2rem;
-  }
-  .title
-  {
-    font-size:0.9rem;
-  }
-  .new
-  {
-    font-size: 0.8rem;
-  }
-  
