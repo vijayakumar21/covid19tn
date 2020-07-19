@@ -22,7 +22,7 @@ for(i in tn){
 var count=tn[i][Object.keys(tn[i])[Object.keys(tn[i]).length-1]];
 var count2=tntotal[i]
 console.log(count);
-$('.new-'+i).html('✹♥\n+ '+count);
+$('.new-'+i).html('+ '+count);
 $('.total-'+i).html(count2);
 }
 $('.total-active').html(tntotal['confirmed']-(tntotal['deceased']+tntotal['recovered']));
